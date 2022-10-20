@@ -1,0 +1,31 @@
+.form__wrap {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid rgb(172, 172, 203);
+    margin-top: 10px;
+}
+
+.form__main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btn__wrap {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn__close {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+}

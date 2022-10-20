@@ -1,0 +1,26 @@
+.modal {
+    width: 500px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: rgba(120, 168, 213, 0.98);
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(24, 25, 26);
+}
+
+.btn__yes,
+.btn__no {
+    padding: 10px;
+    margin: 5px;
+    width: 100px;
+    margin-top: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}

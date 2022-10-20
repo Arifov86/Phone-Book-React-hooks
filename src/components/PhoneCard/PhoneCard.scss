@@ -1,0 +1,18 @@
+.phoneCard {
+    margin: 5px;
+    padding: 5px;
+    border: 1px dashed gray;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name,
+.phone,
+.email {
+    cursor: pointer;
+}
+
+
+
